@@ -134,7 +134,7 @@ pub(crate) fn create_empty_flow_info() -> FlowInfo {
             tasks: IndexMap::new(),
             plugins: None,
         },
-        task: "test".to_string(),
+        task: "empty".to_string(),
         env_info: EnvInfo {
             rust_info: RustInfo::new(),
             crate_info: CrateInfo::new(),
